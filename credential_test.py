@@ -7,12 +7,7 @@ class TestCredential(unittest.TestCase):
     Args:
         unittest.TestCase: TestCase class that helps in creating test cases
     '''
-    def setUp(self):
-        '''
-        Set up method to run before each test cases.
-        '''
-        self.new_credential = Credential("Faith", "Ngotho", "faithngotho", "34816809")
-
+    
     def tearDown(self):
         '''
         tearDown method that does clean up after each test case has run.
