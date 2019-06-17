@@ -47,7 +47,4 @@ class User:
         Returns :
             Boolean: True or false depending if the user exists
         '''
-        for user in cls.user_list:
-            if user.username == username:
-                return True
         
