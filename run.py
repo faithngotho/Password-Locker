@@ -149,7 +149,7 @@ def main():
                             account = input()
                             print("-"*30)
                             print("Account username: ")
-                            account_username = input()
+                            acc_username = input()
                             print("-"*30)
                             print("Account password:")
                             print("Would you like an auto generated password?")
@@ -159,19 +159,19 @@ def main():
                             if choice == 'y':
                                 print('\n')
                                 chars = "abcdefghijklmnopqrstuvwxyz1234567890"
-                                account_password = "".join(random.choice(chars) for _ in range(4,8))
-                                print(f"\nYour password is: {account_password}")
+                                acc_password = "".join(random.choice(chars) for _ in range(8))
+                                print(f"\nYour password is: {acc_password}")
 
                             elif choice == 'n':
                                 print('\n')
                                 print("Please enter password")
-                                account_password = input()
+                                acc_password = input()
                             else:
                                 print('\n')
                                 print("Use either y or n")  
 
                             print('\n')
-                            save_credential(create_credential(username, account, account_username, account_password))  
+                            save_credential(create_credential(username, account, acc_username, acc_password))  
                             print('\n')
                             print(f"New Credential for {account} created")
 

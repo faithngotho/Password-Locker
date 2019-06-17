@@ -10,8 +10,8 @@ class Credential:
         '''
         self.username = username
         self.account = account
-        self.account_username = account_username
-        self.account_password = account_password
+        self.acc_username = acc_username
+        self.acc_password = acc_password
 
     def save_credential(self):
         '''
