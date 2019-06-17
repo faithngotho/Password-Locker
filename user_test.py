@@ -57,7 +57,7 @@ username_login
         self.new_user.delete_user()
         self.assertEqual(len(User.user_list), 1)
 
-    
+    def test_find_user_by_username(self):
         '''
         test to check if we can find a user by username and display information about
         the user
