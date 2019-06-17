@@ -79,3 +79,5 @@ username_login
         user_exists = User.user_exist("user_name")
         self.assertTrue(user_exists)
         
+if __name__ == '__main__':
+    unittest.main()
