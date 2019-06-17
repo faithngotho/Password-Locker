@@ -33,7 +33,8 @@ username_login
         '''
         test_save_user test case to test if the user object is saved to user array
         '''
-        
+        self.new_user.save_user()
+        self.assertEqual(len(User.user_list),1)
         
     def test_save_multiple_user(self):
         '''
