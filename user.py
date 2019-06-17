@@ -8,7 +8,10 @@ class User:
         '''
         To take user input and to create a new user
         '''
-        
+        self.first_name = first_name
+        self.last_name = last_name
+        self.username = username
+        self.password = password
 
     def save_user(self):
         '''
