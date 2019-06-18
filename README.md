@@ -15,7 +15,7 @@ python3.6
 pip
 Cloning and running
 
-## Live link https://github.com/faithngotho/Password-Locker.git 
+## Live link https://github.com/faithngotho/Password-Locker.
 
 ## Behaviour driven development/ input and output checking
 The user will be able to log in and perform the following functions:
