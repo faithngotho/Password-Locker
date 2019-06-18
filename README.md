@@ -24,5 +24,6 @@ Store existing login credentials
 Add login credentials
 View all login credentials
 Search for specific credentials
-License
-MIT License Copyright (c) Faith Ngotho
+
+## License
+  MIT License Copyright (c) Faith Ngotho
